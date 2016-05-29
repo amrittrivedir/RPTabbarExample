@@ -1,10 +1,3 @@
-//
-//  FirstViewController.swift
-//  RPTabbarExample
-//
-//  Created by SOTSYS171 on 3/1/16.
-//  Copyright © 2016 SOTSYS171. All rights reserved.
-//
 
 import UIKit
 
