@@ -12,6 +12,9 @@
 		0E2642AD1C8563E7006F2E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2642AB1C8563E7006F2E33 /* Main.storyboard */; };
 		0E2642AF1C8563E7006F2E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2642AE1C8563E7006F2E33 /* Assets.xcassets */; };
 		0E2642B21C8563E7006F2E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2642B01C8563E7006F2E33 /* LaunchScreen.storyboard */; };
+		0E2642BA1C85658C006F2E33 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2642B91C85658C006F2E33 /* FirstViewController.swift */; };
+		0E2642BC1C8565B6006F2E33 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2642BB1C8565B6006F2E33 /* SecondViewController.swift */; };
+		0E2642BE1C8565FA006F2E33 /* RPTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2642BD1C8565FA006F2E33 /* RPTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0E2642AE1C8563E7006F2E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2642B11C8563E7006F2E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E2642B31C8563E7006F2E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2642B91C85658C006F2E33 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0E2642BB1C8565B6006F2E33 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0E2642BD1C8565FA006F2E33 /* RPTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		0E2642A61C8563E7006F2E33 /* RPTabbarExample */ = {
 			isa = PBXGroup;
 			children = (
+				0E2642BD1C8565FA006F2E33 /* RPTabBar.swift */,
 				0E2642A71C8563E7006F2E33 /* AppDelegate.swift */,
 				0E2642A91C8563E7006F2E33 /* ViewController.swift */,
 				0E2642AB1C8563E7006F2E33 /* Main.storyboard */,
 				0E2642AE1C8563E7006F2E33 /* Assets.xcassets */,
 				0E2642B01C8563E7006F2E33 /* LaunchScreen.storyboard */,
 				0E2642B31C8563E7006F2E33 /* Info.plist */,
+				0E2642B91C85658C006F2E33 /* FirstViewController.swift */,
+				0E2642BB1C8565B6006F2E33 /* SecondViewController.swift */,
 			);
 			path = RPTabbarExample;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2642BC1C8565B6006F2E33 /* SecondViewController.swift in Sources */,
+				0E2642BA1C85658C006F2E33 /* FirstViewController.swift in Sources */,
 				0E2642AA1C8563E7006F2E33 /* ViewController.swift in Sources */,
+				0E2642BE1C8565FA006F2E33 /* RPTabBar.swift in Sources */,
 				0E2642A81C8563E7006F2E33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
